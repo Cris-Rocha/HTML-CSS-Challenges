@@ -25,12 +25,15 @@ header ul li {
 }
 
 section {
-  padding: 5%;
+  padding: 20px;
   background-color: #f8f0fb;
+}
+.introduction{
+  background-color: white;
 }
 
 img {
-  
+  /*border: 5px solid #8075ff; The client suggested to take out the purple border*/
 }
 
 h1,
