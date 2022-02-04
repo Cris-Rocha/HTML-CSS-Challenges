@@ -32,9 +32,6 @@ section {
   background-color: white;
 }
 
-img {
-  /*border: 5px solid #8075ff; The client suggested to take out the purple border*/
-}
 
 h1,
 h2,
@@ -58,16 +55,25 @@ h3 {
   font-size: 150%;
 }
 
+.focusing:hover,
+.focusing:focus {
+  background-color: purple;
+
+}
+
 button {
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 30px;
   cursor: pointer;
   padding: 10px 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: medium;
 }
+
+
 
 footer {
   background-color: #211a1d;
@@ -78,8 +84,7 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {
-}
+
 
 #badge {
   height: 120px;
