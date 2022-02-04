@@ -24,6 +24,10 @@ header ul li {
   margin-right: 10px;
 }
 
+body{
+  line-height: 1.5em;
+}
+
 section {
   padding: 20px;
   background-color: #f8f0fb;
@@ -130,11 +134,15 @@ footer {
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
+  
 }
 
-.giraffe {
+.giraffe,
+.giraffe p {
   background-color: #483C46;
   color: #BEEE62;
+  
+  
 }
 
 .giraffe h2, h3 {
