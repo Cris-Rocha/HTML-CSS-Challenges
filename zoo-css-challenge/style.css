@@ -85,7 +85,6 @@ footer {
 }
 
 
-
 #badge {
   height: 120px;
   width: 120px;
@@ -123,8 +122,6 @@ footer {
   border: 5px solid purple;
 }
 
-
-
 .image-container img:first-of-type {
   vertical-align: bottom;
 }
@@ -152,13 +149,15 @@ footer {
 }
 
 .card {
+  vertical-align: top;
   display: inline-block;
   background-color: white;
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  width: 150px;
   border: 1px solid black;
   border-radius: 10px;
+  
 }
 
 .card h4 {
@@ -222,5 +221,6 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  vertical-align: top;
+  height: 100px;
 }
