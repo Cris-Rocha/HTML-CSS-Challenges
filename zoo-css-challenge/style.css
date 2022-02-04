@@ -60,8 +60,11 @@ h3 {
 }
 
 .focusing:hover,
-.focusing:focus {
-  background-color: purple;
+.focusing:focus,
+button:hover,
+button:focus{
+  background-color: rgb(116, 86, 223);
+  transition: 0.3s;
 
 }
 
