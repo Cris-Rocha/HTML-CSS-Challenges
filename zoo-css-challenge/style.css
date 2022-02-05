@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  line-height: 1.5em;
 }
 
 header {
@@ -24,14 +25,16 @@ header ul li {
   margin-right: 10px;
 }
 
-body{
-  line-height: 1.5em;
-}
-
 section {
   padding: 20px;
   background-color: #f8f0fb;
+  
 }
+
+#logo{
+  border-style: none;
+}
+
 .introduction{
   background-color: white;
 }
